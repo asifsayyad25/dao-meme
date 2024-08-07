@@ -273,7 +273,7 @@ const Home = () => {
           label: "View on Explorer",
           onClick: () =>
             window.open(
-              `https://testnet.bscscan.com/address/${contract.target}`,
+              `https://scan.test.btcs.network/address/${contract.target}`,
               "_blank"
             ),
         },
