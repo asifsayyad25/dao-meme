@@ -392,7 +392,7 @@ const Home = () => {
                       required
                     />
                     {!tname && (
-                      <div className="text-red-500 text-xs mt-2">
+                      <div className="text-orange-500 text-xs mt-2">
                         Token name cannot be blank
                       </div>
                     )}
@@ -415,7 +415,7 @@ const Home = () => {
                       required
                     />
                     {!symbol && (
-                      <div className="text-red-500 text-xs mt-2">
+                      <div className="text-orange-500 text-xs mt-2">
                         Token symbol is a required field
                       </div>
                     )}
@@ -437,7 +437,7 @@ const Home = () => {
                       required
                     />
                     {error && (
-                      <p className="text-red-500 text-xs mt-2">{error}</p>
+                      <p className="text-orange-500 text-xs mt-2">{error}</p>
                     )}
                   </div>
                 </div>
@@ -456,7 +456,7 @@ const Home = () => {
                       required
                     />
                     {!totalSuplay && (
-                      <div className="text-red-500 text-xs mt-2">
+                      <div className="text-orange-500 text-xs mt-2">
                         Total Supply is a required field
                       </div>
                     )}
@@ -779,7 +779,7 @@ const Home = () => {
                           placeholder="0x..."
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Address is invalid
                         </div>
 
@@ -797,7 +797,7 @@ const Home = () => {
                           placeholder="1"
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Minimum token balance for dividends is a required
                           field
                         </div>
@@ -818,7 +818,7 @@ const Home = () => {
                           placeholder="1"
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Token reward fee is a required field
                         </div>
                       </div>
@@ -834,7 +834,7 @@ const Home = () => {
                           placeholder="1"
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Auto add liquidity is a required field
                         </div>
                       </div>
@@ -850,7 +850,7 @@ const Home = () => {
                           placeholder="1"
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Marketing fee is a required field
                         </div>
                       </div>
@@ -866,7 +866,7 @@ const Home = () => {
                           placeholder="0x..."
                           required
                         />
-                        <div className="text-red-500 text-xs mt-2">
+                        <div className="text-orange-500 text-xs mt-2">
                           Address is invalid
                         </div>
                         <span className="text-[#9333ea] text-xs">
