@@ -202,3 +202,7 @@ body {
     --range-shdw: #e79222 !important;
   }
 }
+
+.hero-main {
+  height: calc(100vh - 100px);
+}

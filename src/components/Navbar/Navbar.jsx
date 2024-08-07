@@ -5,12 +5,14 @@ import Image from "next/image";
 import Container from "../Container/Container";
 import { usePathname } from "next/navigation";
 import { MenuScale, Wallet } from "iconoir-react";
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import ThemeToggler from "../ThemeToggler/ThemeToggler";
 
 const Navbar = () => {
   const pathname = usePathname();
+  // console.log({ pathname });
   const [menuToggle, setMenuToggle] = useState(false);
+
   return (
     <header className="relative w-full py-4">
       <Container fluid>
@@ -26,9 +28,15 @@ const Navbar = () => {
             />
           </Link>
           <div className="relative flex items-center gap-2">
-            <ThemeToggler />
+            {pathname == "/createtoken" && <ThemeToggler />}
             <div className="block max-lg:hidden">
-              <ConnectButton />
+              {pathname == "/createtoken" ? (
+                <ConnectButton />
+              ) : (
+                <Link href="/createtoken" className="button button-primary">
+                  Create Token
+                </Link>
+              )}
             </div>
           </div>
         </div>
