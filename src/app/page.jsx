@@ -108,9 +108,9 @@ const Home = () => {
       return toast.error("Please connect your wallet.");
     }
     // Check for the correct chain ID
-    // if (chainId !== 97) {
-    //   return toast.error("Please connect to Bsc testnet (Chain ID 97).");
-    // }
+    if (chainId !== 1115) {
+      return toast.error("Please connect to Core Dao testnet (Chain ID 1115).");
+    }
     // Validation logic
     if (!tname || tname.trim() === "") {
       return toast.error("Token name is required.");
