@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CORE LAUNCHER 🚀
 
-## Getting Started
+![Core Launcher](https://devfolio-prod.s3.ap-south-1.amazonaws.com/static/project_files/core-launcher.png)
 
-First, run the development server:
+### Where Making Tokens is as Easy as Launching a Meme — Bring Your Ideas to Life with a Click and a Smile.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Core Launcher** is a user-friendly platform designed to simplify **ERC20 token creation** and **liquidity management** on **CoreDAO**. It provides an intuitive interface that allows anyone, regardless of technical expertise, to launch their own tokens and manage liquidity with ease. With real-time data, security measures, and an automated process, Core Launcher fills a crucial gap in the DeFi ecosystem of CoreDAO.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔗 **Live Demo**: [core-launcher.netlify.app](https://core-launcher.netlify.app)  
+🔗 **GitHub**: [github.com/Chintan5942/dao-meme](https://github.com/Chintan5942/dao-meme)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Features ✨
 
-To learn more about Next.js, take a look at the following resources:
+- **Simplified ERC20 Token Creation**  
+  No coding required! Easily configure token parameters like name, symbol, and supply.
+  
+- **Efficient Liquidity Management**  
+  Streamlined tools to set up and manage liquidity pools with real-time monitoring.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Enhanced Security**  
+  Comprehensive audits, multi-signature protection, and rigorous security measures ensure the safety of funds.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Real-Time Data and Analytics**  
+  Detailed performance metrics and analytics for informed decision-making.
 
-## Deploy on Vercel
+- **DeFi Ecosystem Support**  
+  Filling the gap in CoreDAO’s ecosystem by offering a specialized token launchpad.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used 🛠️
+
+- **Solidity** (Smart Contract Development)
+- **Node.js**
+- **Next.js**
+- **Web3.js**
+- **React.js**
+- **Tailwind CSS**
+- **Wagmi**
+- **EVM**
+- **CoreDAO**
+
+---
+
+## How It Works ⚙️
+
+1. **Create a Token**:  
+   Use the intuitive interface to enter token details (name, symbol, supply) and deploy your ERC20 token in minutes.
+
+2. **Manage Liquidity**:  
+   Quickly set up and optimize liquidity pools. Automated adjustments ensure smooth liquidity management with minimal effort.
+
+3. **Analyze and Monitor**:  
+   Keep track of token performance and liquidity status through a comprehensive real-time dashboard.
+
+---
+
+## Challenges We Overcame 💡
+
+Developing Core Launcher required solving major hurdles, such as building and deploying factory and router contracts for CoreDAO. The absence of these contracts created delays, but we successfully developed custom contracts after extensive testing.
+
+---
+
+## Installation 📦
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Chintan5942/dao-meme.git
